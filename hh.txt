@@ -1,0 +1,21 @@
+BEGIN
+     DECLARE num as INTEGER
+     IF(num%2==0)
+     DISPLAY num is divisble
+     IF(num%3==0)
+     DISPLAY num is divisble
+     IF(num%5==0)
+     ELSE
+     DISPLAY num is not divisible
+END
+
+BEGIN
+    PROMPT "enter a number" store in num
+    if(num<18) then
+    DISPLAY "not eligible"
+    elseif(num > 60)
+    DISPLAY "you are a senior"
+    ELSE(num>18 && num==18 && num<60)
+    DISPLAY " you are eligible to vote"
+    EndIF
+END
