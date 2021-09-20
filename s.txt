@@ -1,0 +1,17 @@
+create table student(ID int,text varchar(200));
+insert into student(ID,text) values(1,'xyz');
+insert into student(ID,text) values(2,'vvv');
+insert into student(ID,text) values(3,'bbb');
+insert into student(ID,text) values(4,'nnn');
+//select * from student;
+//select * from student where iD=2;
+select ID As num from student where number='xyz'; 
+
+
+create table emplsal(ID int,empname varchar(200), empsal int)
+
+insert into emplsal(ID,empname,sal) values(1,'xyz',66666)
+insert into emplsal(ID,empname,sal) values(2,'xyu',666776)
+insert into emplsal(ID,empname,sal) values(1,'vvv',667866)
+
+select * from emplsal where id in (1,2,3)
